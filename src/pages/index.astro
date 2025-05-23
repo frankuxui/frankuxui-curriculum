@@ -1,11 +1,35 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <main class="w-full mx-auto min-w-0 max-w-full">
+    <section class="w-full mx-auto max-w-7xl">
+      <header class="grid grid-cols-12">
+        <section class="col-span-4 bg-gray-950">
+          <picture class="w-full h-full">
+            <img src="/foto_de_frankuxui_frontend_developer.webp" alt="Astro" class="min-w-0 w-full object-cover max-w-full" />
+            <source srcset="/foto_de_frankuxui_frontend_developer.webp" type="image/webp" />
+          </picture>
+        </section>
+        <section class="col-span-7 bg-gray-900 text-white">
+          <div class="w-full h-full flex items-center justify-between p-16">
+            <div class="flex-1">
+              <h1>
+                <span class="leading-18 text-8xl font-black font-barlow uppercase">frank</span>
+                <br />
+                <span class="leading-18 text-8xl font-black font-barlow uppercase">Esteban</span>
+              </h1>
+              <h2 class="font-barlow text-[42px] uppercase">Frontend Developer</h2>
+            </div>
+          </div>
+        </section>
+      </header>
+      <div class="w-full grid grid-cols-12">
+        <article class="col-span-7">
+          <h2>Hola</h2>
+        </article>
+      </div>
+    </section>
+  </main>
 </Layout>
