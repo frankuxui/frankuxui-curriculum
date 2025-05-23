@@ -1,39 +1,38 @@
 ---
+import Content from "@/components/Content.astro";
+import Aside from "../components/Aside.astro";
 import Signature from "../components/Signature.astro";
 import Root from "../layouts/Root.astro";
+const BASE_URL = import.meta.env.MODE === "production" ? import.meta.env.SITE : Astro.url;
 ---
 
 <Root>
   <main class="w-full mx-auto min-w-0 max-w-full">
     <section class="w-full mx-auto max-w-7xl">
-      <header class="grid grid-cols-12">
-        <section class="col-span-4 overflow-hidden bg-gray-950">
-          <picture class="w-full h-full">
-            <img src="https://frankuxui.github.io/frankuxui-curriculum/foto_de_frankuxui_frontend_developer.webp" alt="Astro" class="min-w-0 w-full object-cover max-w-full" />
-            <source srcset="/foto_de_frankuxui_frontend_developer.webp" type="image/webp" />
-          </picture>
+      <header class="grid md:grid-cols-12">
+        <section class="relative pt-10 md:pt-4 flex md:justify-end md:col-span-4 overflow-hidden bg-gray-950">
+          <img src={`${BASE_URL}/foto_de_frankuxui_frontend_developer.webp`} alt="Astro" class="w-full object-cover md:max-w-sm" />
         </section>
-        <section class="col-span-7 bg-gray-900 text-white">
-          <div class="w-full h-full flex items-center justify-between p-16">
+        <section class="md:col-span-8 bg-gray-900 text-white">
+          <div class="w-full h-full flex items-center justify-between p-10 sm:p-12 lg:p-16">
             <div class="flex-1">
               <h1>
-                <span class="leading-18 text-8xl font-black font-barlow uppercase">frank</span>
+                <span class="leading-10 text-5xl sm:text-6xl md:leading-16 md:text-7xl 2xl:leading-18 2xl:text-8xl font-black font-barlow uppercase">frank</span>
                 <br />
-                <span class="leading-18 text-8xl font-black font-barlow uppercase">Esteban</span>
+                <span class="leading-10 text-5xl sm:text-6xl md:leading-16 md:text-7xl 2xl:leading-18 2xl:text-8xl font-black font-barlow uppercase">Esteban</span>
               </h1>
-              <h2 class="font-barlow text-[42px] uppercase">Frontend Developer</h2>
+              <h2 class="font-barlow md:text-[32px] 2xl:text-[42px] uppercase">Frontend Developer</h2>
             </div>
-            <figure class="w-full max-w-44">
+            <figure class="w-full max-w-32 lg:max-w-44">
               <Signature color="white" />
             </figure>
           </div>
         </section>
       </header>
-      <div class="w-full grid grid-cols-12">
-        <article class="col-span-7">
-          <h2>Hola</h2>
-        </article>
-      </div>
+      <section class="w-full grid md:grid-cols-12 bg-gray-50">
+        <Aside />
+        <Content />
+      </section>
     </section>
   </main>
 </Root>
