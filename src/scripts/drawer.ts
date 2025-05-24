@@ -27,7 +27,7 @@ export class Drawer {
 
   private boundToggle: () => void;
   private boundCloseOnBackdrop: (e: Event) => void;
-  private boundResizeHandler: () => void;
+  // private boundResizeHandler: () => void;
 
   constructor(private options: DrawerOptions) {
     this.wrapperEl = document.querySelector(this.options.wrapper)!;
@@ -39,7 +39,7 @@ export class Drawer {
 
     this.boundToggle = this.toggle.bind(this);
     this.boundCloseOnBackdrop = this.closeOnBackdrop.bind(this);
-    this.boundResizeHandler = this.handleResize.bind(this);
+    // this.boundResizeHandler = this.handleResize.bind(this);
   }
 
   init() {
@@ -54,7 +54,7 @@ export class Drawer {
       this.options.backdropSelector || "[data-toggle='menu-mobile']"
     );
     this.backdropEl?.addEventListener("click", this.boundCloseOnBackdrop);
-    window.addEventListener("resize", this.boundResizeHandler);
+    // window.addEventListener("resize", this.boundResizeHandler);
   }
 
   on(event: DrawerEvent, handler: DrawerEventHandler) {
@@ -111,17 +111,17 @@ export class Drawer {
     }
   }
 
-  private handleResize() {
+  /* private handleResize() {
     if (!this.wrapperEl.classList.contains("hidden")) {
       this.close();
     }
-  }
+  } */
 
   destroy() {
     this.triggerElements?.forEach((el) => {
       el.removeEventListener("click", this.boundToggle);
     });
     this.backdropEl?.removeEventListener("click", this.boundCloseOnBackdrop);
-    window.removeEventListener("resize", this.boundResizeHandler);
+    // window.removeEventListener("resize", this.boundResizeHandler);
   }
 }

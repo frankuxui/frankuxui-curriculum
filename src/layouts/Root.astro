@@ -2,6 +2,8 @@
 import MobileMenu from "@/components/MobileMenu.astro";
 import BaseHead from "../components/BaseHead.astro";
 import "../styles/global.css";
+import ThemeAside from "@/components/ThemeAside.astro";
+import ThemeManager from "@/components/ThemeManager.astro";
 ---
 
 <!doctype html>
@@ -11,6 +13,8 @@ import "../styles/global.css";
   </head>
   <body>
     <MobileMenu />
+    <ThemeManager defaultTheme="light" />
+    <ThemeAside />
     <slot />
   </body>
 </html>

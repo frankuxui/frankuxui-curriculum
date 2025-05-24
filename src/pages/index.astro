@@ -11,10 +11,10 @@ const BASE_URL = import.meta.env.MODE === "production" ? import.meta.env.SITE : 
 
 <Root>
   <StickyHeader />
-  <main class="w-full mx-auto min-w-0 max-w-full bg-foreground">
+  <main class="w-full mx-auto min-w-0 max-w-full">
     <section class="w-full mx-auto max-w-7xl">
       <header class="relative z-10 grid md:grid-cols-12" id="observer-header">
-        <section class="sticky top-0 md:relative pt-10 md:pt-4 flex md:justify-end md:col-span-4 overflow-hidden bg-gray-950">
+        <section class="sticky top-0 md:relative pt-10 md:pt-4 flex md:justify-end md:col-span-4 overflow-hidden bg-cover">
           <img src={`${BASE_URL}/foto_de_frankuxui_frontend_developer.webp`} alt="Astro" class="w-full object-cover md:max-w-sm" />
           <button
             data-toggle="drawer-menu"
@@ -33,7 +33,7 @@ const BASE_URL = import.meta.env.MODE === "production" ? import.meta.env.SITE : 
             </div>
           </button>
         </section>
-        <section class="sticky top-0 md:col-span-8 bg-gray-900 text-white">
+        <section class="sticky top-0 md:col-span-8 bg-hero-background text-hero-foreground">
           <div class="w-full h-full flex items-center justify-between p-10 sm:p-12 lg:p-16">
             <div class="flex-1">
               <h1>
@@ -41,15 +41,15 @@ const BASE_URL = import.meta.env.MODE === "production" ? import.meta.env.SITE : 
                 <br />
                 <span class="leading-10 text-5xl sm:text-6xl md:leading-16 md:text-7xl 2xl:leading-18 2xl:text-8xl font-black font-barlow uppercase">Esteban</span>
               </h1>
-              <h2 class="font-barlow md:text-[32px] 2xl:text-[42px] uppercase">Frontend Developer</h2>
+              <h2 class="font-barlow md:text-[32px] 2xl:text-[42px] uppercase text-hero-foreground/80">Frontend Developer</h2>
             </div>
             <figure class="w-full max-w-32 lg:max-w-44">
-              <Signature color="white" />
+              <Signature />
             </figure>
           </div>
         </section>
       </header>
-      <section class="relative z-10 w-full grid md:grid-cols-12 bg-gray-50">
+      <section class="relative z-10 w-full grid md:grid-cols-12 bg-content-background text-content-foreground">
         <Aside />
         <Content />
       </section>
