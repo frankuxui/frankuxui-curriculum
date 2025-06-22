@@ -87,6 +87,5 @@ Mi enfoque se centra en la creación de experiencias de usuario intuitivas y acc
 - 📞 Teléfono: +34 641 932 611
 - 🌐 Sitio web: [frankuxui.dev](https://frankuxui.dev)
 - 🌐 Sitio web: [frankuxui.com](https://frankuxui.com)
+- 🌐 GitHub: [Frankuxui](https://github.com/frankuxui)
 - 💼 LinkedIn: [Frankuxui](https://www.linkedin.com/in/frankuxui/)
-- 🐦 Twitter: [@frankuxui](https://twitter.com/frankuxui)
-- 📸 Instagram: [@frankuxui](https://www.instagram.com/frankuxui/)
