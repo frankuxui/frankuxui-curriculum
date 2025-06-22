@@ -1,48 +1,92 @@
-# Astro Starter Kit: Basics
+# Frankuxui - Front-end developer y diseñador UX/UI
 
-```sh
-npm create astro@latest -- --template basics
-```
+![Frankuxui - Front-end developer y diseñador UX/UI](https://frankuxui.github.io/frankuxui-curriculum/imagen_de_opengraph_frankuxui_frontend_developer.webp)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Bienvenido al sitio web personal de **Frank Esteban Isdray Junco (Frankuxui)**, desarrollador front-end y diseñador UX/UI con sede en Tarragona, España.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Explora mi portafolio, proyectos, componentes y recursos donde combino el desarrollo web moderno con el diseño de interfaces de usuario, ofreciendo soluciones creativas y funcionales para una gran variedad de necesidades digitales.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Sobre mí
 
-## 🚀 Project Structure
+Soy un apasionado del desarrollo web y el diseño de interfaces de usuario, con más de 5 años de experiencia en la creación de aplicaciones web modernas y escalables. Me especializo en tecnologías front-end, incluyendo HTML5, CSS3, JavaScript y TypeScript, así como en frameworks populares como React.js, Next.js y Svelte.
 
-Inside of your Astro project, you'll see the following folders and files:
+Mi enfoque se centra en la creación de experiencias de usuario intuitivas y accesibles, utilizando las mejores prácticas de diseño y desarrollo. Me encanta aprender nuevas tecnologías y mejorar continuamente mis habilidades para ofrecer soluciones innovadoras y eficientes.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Tecnologías principales
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- HTML5
+- TypeScript
+- Frameworks de JavaScript:
+  - Next.js
+  - React.js
+  - Svelte
+  - Astro
+  - Vue.js ( en aprendizaje )
+  - Angular ( en aprendizaje )
+- CSS Frameworks:
+  - Tailwind CSS
+  - Material UI
+  - Ant Design
+  - Chakra UI
+  - Bootstrap
+  - Panda CSS
+- CSS-in-JS:
+  - Styled Components
+  - Emotion
+- Librerías de UI:
+  - Radix UI
+  - Headless UI
+  - Shadcn UI
+- Librerías de animación:
+  - Framer Motion
+  - GSAP
+- Librerías de gráficos:
+  - D3.js
+  - Chart.js
+- Librerías de formularios:
+  - React Hook Form
+  - Formik
+- Librerías de estado global:
+  - Zustand
+  - Jotai
+- Preprocesadores CSS:
+  - Sass
+  - PostCSS
+- Herramientas de empaque:
+  - Vite
+  - Webpack
+- Control de versiones:
+  - Git
+  - GitHub
+- Pruebas:
+  - Playwright
+- Herramientas de documentación:
+  - Storybook
+- Herramientas de diseño:
+  - Figma
+  - Adobe XD
+- Accesibilidad web
+- SEO técnico
+- Responsive Design
+- Web Performance
+- Docker
+- Despliegue en plataformas como Vercel, Netlify y Cloudflare
 
-## 🧞 Commands
+## Habilidades
 
-All commands are run from the root of the project, from a terminal:
+- Desarrollo web moderno con HTML, CSS y JavaScript
+- Diseño de interfaces de usuario centrado en el usuario
+- Creación de aplicaciones web escalables y mantenibles
+- Optimización de rendimiento web
+- Implementación de buenas prácticas de accesibilidad
+- Colaboración en equipo utilizando Git y plataformas de control de versiones
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Contacto
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- 📬 Email: fisdray@gmail.com
+- 📞 Teléfono: +34 641 932 611
+- 🌐 Sitio web: [frankuxui.dev](https://frankuxui.dev)
+- 🌐 Sitio web: [frankuxui.com](https://frankuxui.com)
+- 💼 LinkedIn: [Frankuxui](https://www.linkedin.com/in/frankuxui/)
+- 🐦 Twitter: [@frankuxui](https://twitter.com/frankuxui)
+- 📸 Instagram: [@frankuxui](https://www.instagram.com/frankuxui/)
